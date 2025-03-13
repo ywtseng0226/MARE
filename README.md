@@ -1,3 +1,3 @@
 # MARE
 
-### code will be released soon..
+### We are now refactoring our code. Stay tuned for the full release!
