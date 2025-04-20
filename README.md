@@ -39,4 +39,4 @@ Yung-Hui Li,
 
 ### Pretrained Weights
 
-The pretrained weight of MaskDINO can be downloaded [here](https://github.com/hustvl/Symphonies/releases/download/v1.0/maskdino_r50_50e_300q_panoptic_pq53.0.pth).
+Pretrained MaskDINO weights, provided by [Symphonies](https://github.com/hustvl/Symphonies), can be downloaded [here](https://github.com/hustvl/Symphonies/releases/download/v1.0/maskdino_r50_50e_300q_panoptic_pq53.0.pth).
