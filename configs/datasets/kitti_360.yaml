@@ -3,8 +3,7 @@
 data:
   datasets:
     type: KITTI360
-    splits: [train-val, test, test]
-    # splits: [train, val, train]
+    splits: [train, val, test]
     data_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360
     label_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360/labels
     depth_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360/depth
