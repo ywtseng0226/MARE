@@ -52,3 +52,28 @@ Yung-Hui Li<sup>4</sup>,
 ### Pretrained Weights
 
 Pretrained MaskDINO weights, provided by [Symphonies](https://github.com/hustvl/Symphonies), can be downloaded [here](https://github.com/hustvl/Symphonies/releases/download/v1.0/maskdino_r50_50e_300q_panoptic_pq53.0.pth).
+
+## Usage
+## Citation
+
+If you find our paper and code useful for your research, please consider giving this repo a star :star: or citing :pencil::
+
+```BibTeX
+@inproceedings{tseng2025memory,
+  title={Memory-Augmented Re-Completion for 3D Semantic Scene Completion},
+  author={Tseng, Yu-Wen and Yang, Sheng-Ping and Wu, Jhih-Ciang and Liao, I-Bin and Li, Yung-Hui and Shuai, Hong-Han and Cheng, Wen-Huang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={7},
+  pages={7446--7454},
+  year={2025}
+}
+```
+
+## Acknowledgements
+
+The development of this project is inspired and informed by [MonoScene](https://github.com/astra-vision/MonoScene), [MaskDINO](https://github.com/IDEA-Research/MaskDINO), [VoxFormer](https://github.com/NVlabs/VoxFormer), and [Symphonies](https://github.com/hustvl/Symphonies). We are thankful to build upon the pioneering work of these projects.
+
+## License
+
+Released under the [MIT](LICENSE) License.
