@@ -15,9 +15,9 @@ Yung-Hui Li<sup>4</sup>,
 <br>
 
 <sup>1</sup> [National Taiwan University](https://www.ntu.edu.tw/),<br>
-<sup>1</sup> [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index),<br>
-<sup>1</sup> [National Taiwan Normal University](https://en.ntnu.edu.tw/),<br>
-<sup>1</sup> [Hon Hai Research Institute](https://www.honhai.com/en-us/rd-and-technology/institute),
+<sup>2</sup> [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index),<br>
+<sup>3</sup> [National Taiwan Normal University](https://en.ntnu.edu.tw/),<br>
+<sup>4</sup> [Hon Hai Research Institute](https://www.honhai.com/en-us/rd-and-technology/institute),
 </div>
 
 
