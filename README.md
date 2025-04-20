@@ -1,17 +1,29 @@
-# Memory-Augmented Re-Completion for 3D Semantic Scene Completion
+<div align="center">
+
+# MARE (Memory-Augmented Re-Completion) 🌕
+
+### [Memory-Augmented Re-Completion for 3D Semantic Scene Completion](https://ojs.aaai.org/index.php/AAAI/article/view/32801)
+
+[Yu-Wen Tseng](https://ywtseng0226.github.io/)<sup>1</sup>,
+Sheng-Ping Yang<sup>1</sup>,
+[Jhih-Ciang Wu](https://jhih-ciang.github.io/)<sup>1,3</sup>,
+I-Bin Liao<sup>4</sup>,
+<br>
+Yung-Hui Li<sup>4</sup>,
+[Hong-Han Shuai](https://basiclab.lab.nycu.edu.tw/)<sup>2</sup>,
+[Wen-Huang Cheng](https://www.csie.ntu.edu.tw/~wenhuang/)<sup>4</sup>
+<br>
+
+<sup>1</sup> [National Taiwan University](https://www.ntu.edu.tw/),<br>
+<sup>1</sup> [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index),<br>
+<sup>1</sup> [National Taiwan Normal University](https://en.ntnu.edu.tw/),<br>
+<sup>1</sup> [Hon Hai Research Institute](https://www.honhai.com/en-us/rd-and-technology/institute),
+</div>
+
 
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2311.16090-red)](https://arxiv.org/abs/2409.06355)  -->
-
-**Author:**
-[Yu-Wen Tseng](https://ywtseng0226.github.io/),
-Sheng-Ping Yang,
-[Jhih-Ciang Wu](https://jhih-ciang.github.io/),
-I-Bin Liao,
-Yung-Hui Li,
-[Hong-Han Shuai](https://basiclab.lab.nycu.edu.tw/),
-[Wen-Huang Cheng](https://www.csie.ntu.edu.tw/~wenhuang/)
 
 ## Setup
 ### Environments
