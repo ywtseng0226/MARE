@@ -1,0 +1,25 @@
+# @package _global_
+
+data:
+  datasets:
+    type: KITTI360
+    splits: [train-val, test, test]
+    # splits: [train, val, train]
+    data_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360
+    label_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360/labels
+    depth_root: /home/ywt/research/25-AAAI-SSC/datasets/kitti360/depth
+    frustum_size: 8
+  loader:
+    batch_size: 1
+    num_workers: 4
+
+model:
+  channels: 64
+  scene_size: [256, 256, 32]
+  volume_scale: 2
+  num_classes: 19
+  image_shape: [376, 1408]
+
+evaluator:
+  type: SSCMetrics
+  num_classes: 19

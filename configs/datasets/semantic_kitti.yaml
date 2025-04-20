@@ -1,0 +1,23 @@
+# @package _global_
+
+data:
+  datasets:
+    type: SemanticKITTI
+    splits: [train, val, val]
+    data_root: /home/ywt/ssc/datasets/SemanticKITTI
+    label_root: /home/ywt/ssc/datasets/SemanticKITTI/dataset/labels
+    depth_root: /home/ywt/ssc/datasets/SemanticKITTI/dataset/depth
+    frustum_size: 8
+  loader:
+    batch_size: 1
+    num_workers: 4
+
+model:
+  channels: 64
+  scene_size: [256, 256, 32]
+  volume_scale: 2
+  num_classes: 20
+
+evaluator:
+  type: SSCMetrics
+  num_classes: 20
