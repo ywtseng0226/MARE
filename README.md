@@ -14,7 +14,7 @@ Yung-Hui Li,
 [Wen-Huang Cheng](https://www.csie.ntu.edu.tw/~wenhuang/)
 
 ## Setup
-
+### Environments
 1. Install PyTorch and Torchvision referring to https://pytorch.org/get-started/locally/.
 2. Install MMDetection referring to https://mmdetection.readthedocs.io/en/latest/get_started.html#installation.
 3. Install the rest of the requirements with pip.
