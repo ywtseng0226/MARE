@@ -18,6 +18,16 @@ Yung-Hui Li,
 
 ### 🌕 MARE, meaning "sea" in Latin, refers to the lunar maria—the vast, dark plains formed when ancient lava flooded and healed the Moon’s large impact basins. Inspired by this natural metaphor, our method aims to re-complete and expand incomplete 3D scenes, revealing hidden regions and enhancing semantic understanding.
 
+<p align="center">
+  <img src="assets/ModelArchitecture.pdf" alt="MARE Model Structure" width="90%"><br>
+  <em>Figure 1: Overview of the MARE model structure.</em>
+</p>
+
+<p align="center">
+  <img src="assets/Qualitative.pdf" alt="Qualitative Results" width="90%"><br>
+  <em>Figure 2: Qualitative results on SemanticKITTI and KITTI-360 datasets.</em>
+</p>
+
 ## Setup
 ### Environments
 1. Install PyTorch and Torchvision referring to https://pytorch.org/get-started/locally/.
