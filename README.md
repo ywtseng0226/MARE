@@ -1,3 +1,3 @@
-# MARE
+Memory-Augmented Re-Completion for 3D Semantic Scene Completion
 
-### We are now refactoring our code. Stay tuned for the full release!
+
