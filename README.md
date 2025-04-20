@@ -25,7 +25,7 @@ Yung-Hui Li,
 
 <p align="center">
   <img src="assets/Qualitative.png" alt="Qualitative Results" width="90%"><br>
-  <em>Figure 2: Qualitative results on SemanticKITTI and KITTI-360 datasets.</em>
+  <em>Figure 2: Qualitative results on SemanticKITTI datasets.</em>
 </p>
 
 ## Setup
