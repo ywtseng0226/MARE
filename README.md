@@ -1,6 +1,8 @@
 
 # Memory-Augmented Re-Completion for 3D Semantic Scene Completion
 
+### 🌕 MARE, meaning "sea" in Latin, refers to the lunar maria—the vast, dark plains formed when ancient lava flooded and healed the Moon’s large impact basins. Inspired by this natural metaphor, our method aims to re-complete and expand incomplete 3D scenes, revealing hidden regions and enhancing semantic understanding.
+
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 <!-- [![arXiv](https://img.shields.io/badge/arXiv-2311.16090-red)](https://arxiv.org/abs/2409.06355)  -->
