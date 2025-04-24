@@ -55,6 +55,13 @@ KITTI360_LABEL_MAP = {
     18: 99,  # "other-object"
 }
 
+# Count model parameters
+def count_parameters(model):
+    total = sum(p.numel() for p in model.parameters())
+    trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"Total parameters: {total:,}")
+    print(f"Trainable parameters: {trainable:,}")
+
 @hydra.main(config_path='../configs', config_name='config', version_base=None)
 def main(cfg: DictConfig):
     if os.environ.get('LOCAL_RANK', 0) == 0:
@@ -71,6 +78,8 @@ def main(cfg: DictConfig):
         import warnings
         warnings.warn('\033[31;1m{}\033[0m'.format('No checkpoint path is provided'))
         model = LitModule(**cfg, meta_info=meta_info)
+
+    count_parameters(model)
     model.cuda()
     model.eval()
 

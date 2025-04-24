@@ -18,6 +18,5 @@ def main(cfg: DictConfig):
     trainer = L.Trainer(**cfg.trainer, **callbacks)
     trainer.fit(model, *dls[:2])
 
-
 if __name__ == '__main__':
     main()
